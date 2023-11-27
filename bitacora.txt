@@ -15,4 +15,5 @@
        git commit -m "Paso 06"
 (07)   git branch develop
 (08)   git checkout -b feature/Ticket220
+(14)   git stash
 	
