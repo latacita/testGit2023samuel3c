@@ -6,3 +6,8 @@
 
  Paso   Acción                       Notas
 ====== ============================ ================================
+(01)   git clone https...etc
+(02)   edicion de txt
+(03)   git add bitacora.txt
+       git commit -m "Paso 03"
+(04)   git push origin master
