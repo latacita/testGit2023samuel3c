@@ -42,6 +42,15 @@
 (31)   git push origin develop
 (32)   git checkout feature/Ticket222
 (33)   git checkout develop bitacora.txt
+(35)   git add .
+       git commit -m "Paso 35"
+(36)   git checkout develop
+(37)   git merge feature/Ticket222           Se encontraron conflictos, asi que soluciono y realizo commit explicativo 
+       git add .
+       git commit -m "Resolucion conflicto Paso 37"
+(38)   git checkout master
+(39)   git merge develop --no-ff
+ 
 
 
 
