@@ -4,8 +4,8 @@
 %% Alumno (Castro Rodríguez, Samuel):                               %%
 %%==================================================================%%
 
- Paso   Acción                       Notas
-====== ============================ ================================
+ Paso   Acción                             Notas
+====== =================================== ================================
 (01)   git clone https...etc
 (02)   edicion de txt
 (03)   git add bitacora.txt
@@ -16,4 +16,12 @@
 (07)   git branch develop
 (08)   git checkout -b feature/Ticket220
 (14)   git stash
-	
+(18)   git stash apply
+(19)   git add .
+       git commit -m "Paso 19"
+(20)   git checkout develop
+(21)   git branch feature/Ticket222
+(22)   git checkout feature/Ticket220
+       recursiva
+
+
