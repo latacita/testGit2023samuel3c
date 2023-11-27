@@ -4,10 +4,46 @@
 %% Alumno (Castro Rodríguez, Samuel):                               %%
 %%==================================================================%%
 
- Paso   Acción                       Notas
-====== ============================ ================================
+ Paso   Acción                             Notas
+====== =================================== ================================
 (01)   git clone https...etc
 (02)   edicion de txt
 (03)   git add bitacora.txt
        git commit -m "Paso 03"
 (04)   git push origin master
+(06)   git add .
+       git commit -m "Paso 06"
+(07)   git branch develop
+(08)   git checkout -b feature/Ticket220
+(10)   git add .
+       git commit -m "Paso 10"
+(11)   git checkout develop
+(12)   git checkout -b feature/Ticket221
+(14)   git stash
+(16)   git add .
+       git commit -m "Paso 16"
+(17)   git checkout feature/Ticket221
+(18)   git stash apply
+(19)   git add .
+       git commit -m "Paso 19"
+(20)   git checkout develop
+(21)   git branch feature/Ticket222
+(22)   git checkout feature/Ticket220
+       recursiva
+(24)   git add .
+       git commit -m "Paso 24"
+(25)   git checkout develop
+(26)   git merge feature/Ticket220 --no-ff
+(27)   git merge feature/Ticket221 --no-ff   Se encontraron conflictos que hubo que solucionar 
+(29)   git add .
+       git commit -m "Paso 29"
+(30)   git log --oneline
+       git tag Step29 <hash del commit>
+(31)   git push origin develop
+(32)   git checkout feature/Ticket222
+(33)   git checkout develop bitacora.txt
+
+
+
+
+
