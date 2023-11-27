@@ -11,3 +11,8 @@
 (03)   git add bitacora.txt
        git commit -m "Paso 03"
 (04)   git push origin master
+(06)   git add .
+       git commit -m "Paso 06"
+(07)   git branch develop
+(08)   git checkout -b feature/Ticket220
+	
