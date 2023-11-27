@@ -35,6 +35,14 @@
 (25)   git checkout develop
 (26)   git merge feature/Ticket220 --no-ff
 (27)   git merge feature/Ticket221 --no-ff   Se encontraron conflictos que hubo que solucionar 
+(29)   git add .
+       git commit -m "Paso 29"
+(30)   git log --oneline
+       git tag Step29 <hash del commit>
+(31)   git push origin develop
+(32)   git checkout feature/Ticket222
+(33)   git checkout develop bitacora.txt
+
 
 
 
